@@ -1,0 +1,37 @@
+{
+  "type": "record",
+  "namespace": "com.luxoft.lmd",
+  "name": "User",
+  "fields": [
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "lastName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "team",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
